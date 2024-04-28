@@ -1,0 +1,42 @@
+<h2>Welcome to Senior Soul</h2>
+<p id="validation">If you have not account please signup</p>
+<p><%= %></p>
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <link rel="stylesheet" href="login.css">
+        <form method="post" action="/signup">
+            <h1>Create Account</h1>
+            <input type="text" placeholder="Name" name="name" />
+            <input type="email" placeholder="Email" name="email"/>
+            <input type="password" placeholder="Password" name="password" />
+            <input type="number" placeholder="Age" name="age"/>
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form method="post" action="/signin">
+            <h1>Sign in</h1>
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Hello, Senior Soul!</h1>
+                <p>To keep connected with us please login with your personal info</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Welcome Back</h1>
+                <p>Enter your details to connect with me!</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+</footer>
+<script src="login.js"></script>
