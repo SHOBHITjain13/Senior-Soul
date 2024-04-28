@@ -54,5 +54,5 @@ tl.from("h5, h1,p, h3, li",{
   x:-100,
   duration: 0.5,
   opacity: 0,
-  stagger: 0.3
+  stagger: 0.4
 })
