@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=service+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F1E7DD;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #F1E7DD;
+}
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1E7DD;
+}
+
+.home nav{
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #22235E;
+    padding: 2.8vw 2.5vw;
+}
+
+.home img{
+    height: 4vw;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav2 button{
+    padding: 0.8vw 1.2vw;
+    background-color: #22235E;
+    border-radius: 15px;
+    color: #F1E7DD;
+    font-weight: 500;
+    margin-top: 0vw;
+    /* outline:none ;       */
+}
+
+.home-content{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    padding: 7vw 4.5vw 1vw;
+}
+
+.left{
+    height: 95vh;
+    width: 50vw;
+    /* background-color: salmon; */
+}
+
+.left h5{
+    font-size: 1vw;
+    text-transform: uppercase;
+    /* margin-top: 5vw; */
+}
+
+.left h1{
+    font-size: 3vw;
+}
+
+.left p{
+    font-size: 1.2vw;
+    padding: 1vw 0vw;
+
+}
+
+.left span{
+    color:#22235E;
+}
+
+.home-services h3{
+    font-size: 2vw;
+    padding: 5vw 0vw 1vw;
+}
+
+.home-services ul{
+    font-size: 1.2vw;
+    padding: 0vw 0vw;
+    list-style-type: none;
+}
+
+.home-services a{
+    color: #22235E;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.right{
+    height: 95vh;
+    width: 50vw;
+}
+
+.right img{
+    height: 75%;
+    margin-left: 2vw;
+    margin-top: -3vw;
+    border-radius: 15px;
+}
+
+#overview{ 
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1E7DD;
+    color: black;
+    display: flex;
+}
+
+#overview .left{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: salmon; */
+}
+
+
+#overview .left img{
+    height: 50vw;
+    padding:8vw 4vw;
+    object-fit: cover;
+}
+
+
+
+#overview .right{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: slateblue; */
+    padding: 10vw 5vw;
+
+}
+
+#overview .right h2{
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    margin-bottom: 3vw;
+}
+
+.msg a{
+    text-decoration: none;
+}
+
+#overview .right h1{
+    text-transform: uppercase;
+}
+
+#s{
+    color: #22235E;
+}
+
+#overview .right p{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+
+
+.about-contact{
+    margin-top: 3vw;
+    display: flex;
+    gap: 10vw;
+}
+
+.about-contact i{
+    font-size: 1.5vw;
+}
+.about-contact span{
+    font-weight: 700;
+}
+
+.services{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1E7DD;
+    /* margin-bottom: 5vw; */
+}
+
+.service-top{
+    width: 100vw;
+    margin-top: 2vw;
+    text-align: center;
+    align-items: center;
+}
+
+.services p{
+    font-size: 1vw;
+}
+
+.services h2{
+    font-size: 3vw;
+}
+
+.service-top span{
+    color: #22235E;
+}
+
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw,1fr));
+    grid-gap: 8vw;
+    padding: 6vw 8vw;
+
+}
+
+.service{
+    border-radius: 1vw;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #22235E;
+    box-shadow: 1vw 1vw 2vw rgba(3, 0, 0, 0.5)
+
+}
+
+.service img{
+    width: 80%;
+    margin-left: 2vw;
+    margin-top: 4vw;
+
+    /* border-radius: 1vw; */
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    font-size: 0.9vw;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(0,0,0,0.5), #22235E);
+    border-radius: 1vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0vw 1vw;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.layer p{
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+    color: black;
+}
+
+.service:hover img{
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+.service:hover .layer{
+    height: 100%;
+    opacity: 0.9;
+}
+
+.service-list h3{
+    font-size: 1.3vw;
+    margin-left: 2.5vw;
+    margin-top: -5vw;
+}
+
+#sl3{
+    margin-left: 3.5vw;
+}
+
+button{
+    margin-top: 2vw;
+    padding: 0.5vw 1vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #22235E;
+    border-radius: 25px;
+}
+
+button a{
+    text-decoration: none;
+
+}
+
+#contact{
+    font-size: 1.7vw;
+    height: 30%;
+    width: 100%;
+    color: #F1E7DD;
+    background-color: #22235E ;
+    padding: 2vw 10vw;
+    display: flex;
+    gap: 1.7vw;
+}
+
+#contact img{
+    height: 50%;
+    margin-left: -5vw;
+}
+
+#contact .email{
+    margin-left: 4vw;
+}
+
+#contact a{
+    color: #F1E7DD;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1.5vw;
+    margin-left: 10vw;
+    margin-top: -5vw;
+}
+
+.link h5{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.copyright{
+    /* width: 100%; */
+    font-size: 1vw;
+    margin-top: 8vw;
+    text-align: center;
+    margin-left: -50vw;
+    color: #F1E7DD;
+}
