@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior-Soul</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="home">
+            <nav>
+                <div class="logo">
+                    <img src="assets/Senior.png" alt="">
+                </div>
+                <div class="nav2">
+                    <a href="#home">HOME</a>
+                    <a href="#overview">OVERVIEW</a>
+                    <a href="#contact">CONTACT</a>
+                    <button id="login-btn" onclick="login()"><a href="http://localhost:3000/redirect">LOGIN</a></button>
+                </div>
+            </nav>
+
+            <div class="home-content">
+                <div class="left">
+                    <h5>get the care you deserve</h5>
+                    <h1> Unlock the <span>Healthier</span><br> and Happier you</h1>
+                    <p>Browse through list of Services that served by us for the <br> betterment of your health in your
+                        second innings.
+                    </p>
+                    <div class="appoitment">
+                        <h3></h3>
+                        <button><a href="http://localhost:3000/appoint"><i class="ri-calendar-line"></i> Book Appoitment </a></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="assets/right.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="overview">
+            <div class="left">
+                <img src="assets/img2.png" alt="">
+            </div>
+            <div class="right">
+                <h2>About Us</h2>
+                <h1>A personalized approach <br>to your <span id="s">Well-Being</span></h1>
+                <p> Our website provides essential tools for seniors managing medicinal issues. Featuring a BMI
+                    calculator, medicinal report feedback, remote appointment scheduling, and a user-friendly chat app,
+                    we aim to simplify healthcare access and management for older adults, improving their quality of
+                    life.</p>
+
+                <div class="about-contact">
+                    <div class="call">
+                        <p> <i class="ri-phone-line"></i> <span>Call us Now </span><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7509782344</p>
+                    </div>
+                    <div class="msg">
+                        <p><i class="ri-chat-4-fill"></i> <span>Send a
+                                Message</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seniorsoulworks@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="service-top">
+                <p>Know more about</p>
+                <h2>Our <span>Services</span></h2>
+            </div>
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+            <link rel="stylesheet" href="styles.css" />
+
+            <section class="section__container service__container">
+                <div class="service__header">
+                    <div class="service__header__content">
+                    <div class="service__grid">
+                        <div class="service__card">
+                            <span><i class="ri-microscope-line"></i></span>
+                            <h4>Remote Health Monitoring</h4>
+                            <p>
+                                A comprehensive health monitoring tool that analyzes BMI, blood sugar levels, and blood
+                                pressure, providing personalized feedback based on the user's data
+                            </p>
+                            <a href="http://localhost:3000/health">Explore</a>
+                        </div>
+                        <div class="service__card">
+                            <span><i class="ri-mental-health-line"></i></span>
+                            <h4> Caregiver Support
+                            </h4>
+                            <p>
+                                A caregiver platform designed to provide support and resources for caregivers, facilitating easier access to information, community, and assistance.
+                            </p>
+                            <a href="http://localhost:3000/volunteer">Explore</a>
+                        </div>
+                        <div class="service__card">
+                            <span><i class="ri-hospital-line"></i></span>
+                            <h4>Social Engagement</h4>
+                            <p>
+                                A platform for users tO chat with corresponding names and captions, fostering a
+                                rich visual and Social Engagement Tools
+                            </p>
+                            <a href="http://localhost:3000/engage">Explore</a>
+                        </div>
+                    </div>
+            </section>
+</body>
+<div id="contact">
+    <img src="assets/Senior.png" alt="">
+    <div class="email">
+        <h3>Want to get in touch?</h3>
+        <a href="">&nbsp;&nbsp;&nbsp;&nbsp; seniorsoulworks@gmail.com <i class="ri-arrow-right-line"></i></a>
+    </div>
+    <div class="link">
+        <h5> <i class="ri-map-pin-line"></i> Indore, India</h5>
+        <h5><a href="#"><i class="ri-facebook-box-fill"></i> Facebook</a></h5>
+        <h5><a href="#"><i class="ri-twitter-line"></i> Twitter</a></h5>
+        <h5><a href="#"><i class="ri-instagram-line"></i> Instagram</a></h5>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;2024 All right reserved | Made with &nbsp; &hearts; &nbsp; for Oldies</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+    integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"
+            integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="hide.js"></script>
+</div>
+</body>
+
+</html>
